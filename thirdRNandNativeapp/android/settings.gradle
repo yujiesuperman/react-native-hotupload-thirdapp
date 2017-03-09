@@ -1,0 +1,7 @@
+rootProject.name = 'thirdRNandNativeapp'
+
+include ':app'
+include ':react-native-update'
+project(':react-native-update').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-update/android')
+include ':react-native-spinkit'
+project(':react-native-spinkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spinkit/android')
